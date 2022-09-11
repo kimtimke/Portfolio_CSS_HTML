@@ -1,3 +1,49 @@
+:root {
+  --primary-color: #2721a0;
+  --secondary-color: #493d6c;
+  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+body {
+  max-width: 800px;
+  margin: 60px auto;
+}
+
 h1 {
+  font-size: 96px;
+  color: red;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.navigation-links a {
+  margin: 20px;
+  padding: 20px 15px;
+  text-decoration: none;
+}
+.navigation-links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.about-paragraphs {
+  display: flex;
+  justify-content: center;
+}
+
+.contact {
+  text-align: center;
+}
+
+.homepage-link {
+  text-align: center;
+  display: block;
 }
